@@ -1,0 +1,223 @@
+*{
+    margin: 0px 0px;
+    font-family: Inter, sans-serif;
+    padding: 0px;
+}
+body{
+    background-color: #f5f5f5;
+
+}
+/*Navbar*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    box-sizing: border-box;
+    background-color: #C1262E;
+}
+nav .logo{
+    display: flex;
+    color: #ffffff;
+    font-size: 20pt;
+    gap: 10px;
+    font-weight: 700;
+    align-items: center;
+}   
+.menu ul li{
+    display: inline-block;    
+}
+
+.menu ul li a {
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+/* .menu ul li a:hover {
+    color: #474747;
+    transition: all 0.5s ease;
+} */
+
+.menu .dropdown-content {
+    display: none;
+    position: absolute;
+    background: #c1262e;
+    border-radius: 10px;
+}
+.menu .dropdown:hover .dropdown-content {
+    transition: all 0.5s ease;
+    display: block;
+}
+.menu .dropdown-content a {
+    color: #fff;
+    padding: 10px 36px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+.menu .dropdown-content a:hover {
+    color: #2e2e2e;
+    transition: all 0.5s ease;
+}
+.regist ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.regist ul li{
+    display: inline-block;
+}
+.regist ul li a{    
+    display: inline-block;
+    color: #fcfcfc;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+.regist .sign-in{
+    background-color: #ff5656;
+    border-radius: 30px;
+    padding: 0 20px;
+    
+}
+.regist ul li a:hover{
+    color:black;
+    transition: all 0.5s ease;
+}
+.regist .sign-in:hover{
+    background-color: #ffffff;
+    transition: all 0.5s ease;
+}
+/* Akhir Navbar */
+
+
+.container-1 h1{
+    margin: 20px auto;
+    text-align: center;
+    /* border-bottom: 4px #C1262E  solid;
+    width: fit-content; */
+}
+.container-1 p{
+    margin: 30px 90px;
+    font-weight: 400;
+    font-size: 0.9em;
+    text-align: center;
+}
+.container-1 h2{
+    margin: 20px auto;
+    text-align: center;
+    /* color: #C1262E; */
+}
+.container-1 ol li{
+    margin: 10px 90px;
+    font-weight: 400;
+    font-size: 0.9em;
+    text-align: justify;
+}
+.container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-2A h3{
+    font-weight: 400;
+    color: #C1262E;
+}
+.section-2B{
+    text-align: center;
+}
+.logo_partners{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .section-2B h1{
+    border-bottom: 4px solid #C1262E;
+    line-height: 50px;
+} */
+
+/* hasil chat gpt */
+.section-2B h1 {
+    position: relative;
+    line-height: 60px;
+}
+
+.section-2B h1::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    width: 80%; 
+    height: 4px; 
+    background-color: #C1262E; 
+}
+/* akhir */
+.thumbnail{
+    width: 15%;
+}
+.thumbnail img{
+    width: 100%;
+}
+
+/* Footer Section */
+.container-3{
+    margin: 50px 0px 0px 0px;
+    padding: 40px 50px;
+    background-color: #2e2e2e;
+    color: #7c7c7c;
+    font-size: 0.9em;
+}
+.container-3 ul li{
+    list-style: none;
+}
+.container-3 a{
+    text-decoration: none;
+    color: #7c7c7c;
+}
+.container-3 a:hover{
+    color: #f5f5f5;
+}
+.bagian-1{
+    display: flex;
+}
+.wrapper-satu{
+    flex-grow: 2;
+    padding-bottom: 150px;
+}
+.section-3A{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+.section-3AA{
+    padding-top: 10px;
+    width: 60%;
+}
+.section-3C li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.wrapper-dua{
+    /* background-color: #e24e4e; */
+    flex-grow: 1;
+    display:flex;
+    justify-content: space-between;
+    line-height: 35px;
+    font-weight: 400;
+}
+.bagian-2{
+    margin: 20px 0px;
+    color: #7c7c7c;
+    display: flex;
+    justify-content: space-between;
+}
+/* akhir footer section */
