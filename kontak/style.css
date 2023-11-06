@@ -109,6 +109,7 @@ nav .logo{
 .container-1 h1{
     color: #222;
 }
+
 .contact-box{
     background-color: #ffff;
     display: flex;
@@ -118,14 +119,15 @@ nav .logo{
 }
 .contact-left{
     flex-basis: 70%;
-    padding: 80px 30px;
+    padding: 75px 30px;
 }
 .contact-right{
     flex-basis: 30%;
-    padding: 80px 30px;
+    padding: 75px 30px;
     background-color: #C1262E;
     color: #f5f5f5;
 }
+
 .input-row{
     display: flex;
     justify-content: space-between;
