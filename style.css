@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@200;500;600;700;800&display=swap);
 *{
     margin: 0px 0px;
     font-family: Inter, sans-serif;
@@ -389,28 +389,11 @@ margin: 25px 0px 0px 15px;
     align-items: center;
 }
 
-/* .section-6B h1{
+.section-6B h1{
     border-bottom: 4px solid #C1262E;
     line-height: 50px;
-} */
-
-/* hasil chat gpt */
-.section-6B h1 {
-    position: relative;
-    line-height: 60px;
 }
 
-.section-6B h1::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 0;
-    width: 80%; 
-    height: 4px; 
-    background-color: #C1262E; 
-}
-/* akhir */
 .thumbnail{
     width: 15%;
 }
