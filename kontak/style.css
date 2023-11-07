@@ -11,7 +11,8 @@ body{
     color: #C1262E;
 }
 .highlight-2{
-    color: #f9f9f9;
+    color: #ffffff;
+    /* background-color: #2e2e2e; */
 }
 /*Navbar*/
 nav{
@@ -100,16 +101,17 @@ nav .logo{
 /* Akhir Navbar */
 
 .container-1{
-    margin: 40px 60px;
+    margin: 35px 50px;
 }
 .container-1 p{
     color: #2e2e2e;
     margin: 5px 0px 20px 0px;
+    text-align: center;
 }
 .container-1 h1{
     color: #222;
+    text-align: center;
 }
-
 .contact-box{
     background-color: #ffff;
     display: flex;
@@ -119,13 +121,11 @@ nav .logo{
 }
 .contact-left{
     flex-basis: 70%;
-    padding: 75px 30px;
+    padding: 40px 30px;
 }
-.contact-right{
-    flex-basis: 30%;
-    padding: 75px 30px;
-    background-color: #C1262E;
-    color: #f5f5f5;
+.contact-box .contact-left h2{
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .input-row{
@@ -143,7 +143,7 @@ input{
     width: 100%;
     border: none;
     border-bottom: 1px #868686 solid;
-    padding: 15px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
 }
 textarea{
     margin-top: 10px;
@@ -153,12 +153,34 @@ textarea{
     outline: none;
     padding: 10px;
 }
-.contact-box-2{
+button{
+    background-color: #C1262E;
+    color: #f5f5f5;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #2e2e2e;
+}
+.contact-right{
+    flex-basis: 30%;
+    padding: 40px 30px;
+    background-color: #c1262e;
+    color: #f5f5f5;
+}
+.contact-right h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact-info{
     display: flex;
     line-height: 50px;
 }
 
-.contact-box-2 li{
+.contact-info li{
     list-style: none;
     display: flex;
     align-items: center;

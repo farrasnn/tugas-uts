@@ -41,11 +41,6 @@ nav .logo{
     text-decoration: none;
 }
 
-/* .menu ul li a:hover {
-    color: #474747;
-    transition: all 0.5s ease;
-} */
-
 .menu .dropdown-content {
     display: none;
     position: absolute;
@@ -164,11 +159,11 @@ main a.learn-button:hover{
     border-radius: 40px;
     margin-left: 10px;
 }
-/* Akhir Cover Landing Page */
+/* akhir Cover Landing Page */
 
 
 
-/*Activity section*/
+/*activity section*/
 .container-2{
     display: flex;
     flex-direction: column;
@@ -331,6 +326,7 @@ margin: 25px 0px 0px 15px;
     overflow: hidden;
     margin: 10px 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: 0.5s;
 }
 .card .header-card{
     height: fit-content;
@@ -359,8 +355,7 @@ margin: 25px 0px 0px 15px;
     color: #c1262e;
 }
 .card:hover{
-    scale: 1.1;
-    transition: transform 0.5s ease;
+    transform: scale(1.1);
 }
 .card .content a:hover{
     color: #2e2e2e;
