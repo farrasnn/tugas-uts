@@ -13,7 +13,7 @@ body{
 .highlight-2{
     color: #f9f9f9;
 }
-/*Navbar*/
+/*navbar*/
 nav{
     display: flex;
     justify-content: space-between;
@@ -92,11 +92,11 @@ nav .logo{
     background-color: #ffffff;
     transition: all 0.5s ease;
 }
-/* Akhir Navbar */
+/* akhir navbar */
 
 
 
-/*Landing Page*/
+/*landing page*/
 .container-1 img{
     margin-top: 30px;
 }
@@ -159,7 +159,7 @@ main a.learn-button:hover{
     border-radius: 40px;
     margin-left: 10px;
 }
-/* akhir Cover Landing Page */
+/* akhir  landing page */
 
 
 
@@ -170,14 +170,13 @@ main a.learn-button:hover{
     background-color:#2e2e2e ;
     color: #fdfdfd;
     padding: 60px 0px 80px 0px;
-    /* box-sizing: border-box; */
     gap: 20px 0px;
 }
 .activity{
     text-align: center;
     padding: 0 30px;
+    font-size: 1.2em;
 }
-
 .activity-2{
     display: flex;
     justify-content: space-evenly;
@@ -197,11 +196,11 @@ main a.learn-button:hover{
 .kegiatan p{
     text-align: left;
 }
-/* Akhir Activity Section */
+/* akhir activity section */
 
 
 
-/* About Section */
+/* abouts section */
 .container-3{
     display: flex;
     justify-content: space-between;
@@ -254,11 +253,11 @@ margin: 25px 0px 0px 15px;
     background-color: #2e2e2e;
     transition: all 0.5s ease;
 }
-/* Akhir About Section*/
+/* akhir about section*/
 
 
 
-/* Activity Details Section*/
+/* activity details section*/
 .container-4{
     display: flex;
     flex-direction: column;
@@ -290,11 +289,11 @@ margin: 25px 0px 0px 15px;
     color: #f5f5f5ff;
     border-radius: 10px;    
 }
-/* Akhir Activity Details */
+/* akhir activity details */
 
 
 
-/* Artikel Section */
+/* artikel section */
 .container-5{
     padding-bottom: 70px;
 }
@@ -363,11 +362,11 @@ margin: 25px 0px 0px 15px;
 .card .content a:hover{
     color: #2e2e2e;
 }
-/* Akhir Artikel Section */
+/* akhir artikel section */
 
 
 
-/* Partners Logo Section */
+/* partners logo section */
 .container-6{
     display: flex;
     flex-direction: column;
@@ -398,11 +397,11 @@ margin: 25px 0px 0px 15px;
 .thumbnail img{
     width: 100%;
 }
-/* Akhir Partners Logo Section */
+/* akhir partners logo section */
 
 
 
-/* Footer Section */
+/* footer section */
 .container-7{
     margin: 50px 0px 0px 0px;
     padding: 40px 50px;
