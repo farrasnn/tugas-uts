@@ -103,19 +103,72 @@ nav .logo{
 /* Akhir Navbar */
 
 .container-1{
-    height: 100vh;
+    padding-bottom: 10px;
 }
 .container-1 h1{
     text-align: center;
     margin-top: 20px;
 }
+.section-5B{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;  
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    width: 48%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    overflow: hidden;
+    margin: 10px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    transition: 0.5s;
+}
+.card .header-card{
+    height: 200px;
+    background-color: #C1262E;
+    flex-wrap: wrap;
+}
+.card .header-card img {
+    height: 100%;
+    object-fit: cover;
+}
+.card .content .date{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.card .content{
+    text-align: left;
+    padding: 10px 20px 20px 20px;
+    font-size: 0.7em;
+}
+.card .content h3{
+    margin-bottom: 5px;
+    font-size: 1.4em;
+}
+.card .content p{
+    font-size: 1.2em;
+}
+.card .content a{
+    text-decoration: none;
+    color: #2e2e2e;
+}
+.card .content a:hover{
+    color: #c0262e;
+}
+
 .container-2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 100px 0px 0px 0px;
 }
 .section-2A h3{
-    font-weight: 400;
+    font-weight: 600;
     color: #C1262E;
 }
 .section-2B{
