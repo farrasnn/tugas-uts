@@ -25,17 +25,19 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 20px 60px;
-    box-sizing: border-box;
     background-color: #C1262E;
 }
 nav .logo{
     display: flex;
-    color: #ffffff;
-    font-size: 20pt;
+    font-size: 2em;
     gap: 10px;
     font-weight: 700;
     align-items: center;
-}   
+}
+nav a {
+    text-decoration: none;
+    color: #f5f5f5;
+}
 .menu ul li{
     display: inline-block;    
 }
@@ -102,10 +104,12 @@ nav .logo{
 /* Akhir Navbar */
 .container-1{
     margin: 60px auto;
+    display: flex;
+    justify-content: center;
 }
 
 .container-1 h1{
-    text-align: center;
+    border-bottom: 4px #C1262E solid;
 }
 .container-1A{
     display: flex;
@@ -113,6 +117,7 @@ nav .logo{
     justify-content: center;
     flex-wrap: wrap;
     box-sizing: border-box;
+    /* width: 100%; */
 }
 .container-1A .thumbnail {
     width: 20%;
@@ -154,18 +159,16 @@ nav .logo{
 .section-2B{
     text-align: center;
 }
+.section-2B h1{
+    border-bottom: 4px solid #C1262E;
+    line-height: 50px;
+}
 .logo_partners{
     margin: 20px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.section-2B h1{
-    border-bottom: 4px solid #C1262E;
-    line-height: 50px;
-}
-
 .thumbnail{
     width: 15%;
 }
