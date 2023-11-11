@@ -368,10 +368,10 @@ margin: 25px 0px 0px 15px;
 }
 .card .content a{
     text-decoration: none;
-    color: #2e2e2e;
+    color: #c1262e;
 }
-.card .content a:hover{
-    color: #c0262e;
+.card .content .highlight:hover{
+    color: #2926c1;
 }
 /* akhir artikel section */
 
@@ -382,7 +382,7 @@ margin: 25px 0px 0px 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin: 60px auto;
 }
 .section-6A h3{
     font-weight: 400;

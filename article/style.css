@@ -157,17 +157,17 @@ nav a {
 }
 .card .content a{
     text-decoration: none;
-    color: #2e2e2e;
+    color: #c1262e;
 }
-.card .content a:hover{
-    color: #c0262e;
+.card .content .highlight:hover{
+    color: #2926c1;
 }
 
 .container-2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 100px 0px 0px 0px;
+    margin: 60px auto;
 }
 .section-2A h3{
     font-weight: 600;
@@ -197,7 +197,6 @@ nav a {
 
 /* Footer Section */
 .container-3{
-    margin: 50px 0px 0px 0px;
     padding: 40px 50px;
     background-color: #2e2e2e;
     color: #7c7c7c;
