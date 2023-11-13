@@ -243,7 +243,7 @@ main a.learn-button:hover{
     transition: all 0.5ms ease;
 }
 .about-2{
-margin: 25px 0px 0px 15px;
+    margin: 25px 0px 0px 15px;
 }
 .about-2 a{
     background-color: #C1262E;
@@ -303,23 +303,33 @@ margin: 25px 0px 0px 15px;
 }
 .section-5A{
     text-align: left;
-    margin-left: 150px;
+    margin-left: 125px;
+    margin-right: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-5A .line{
+    background-color: #C1262E;
+    width: 750px;
+    height: 10px;
+    border-radius: 10px;
 }
 .article-tab{
-    margin: 0 150px;
+    margin: 0 125px;
     display: flex;
     justify-content: end;
-    color: #C1262E;
+    color: #3b3b3b;
 }
 .article-tab a{
     text-decoration: none;
-    color: #C1262E;
+    color: #3b3b3b;
 }
 .article-tab:hover{
-    color: #3b3b3b;
+    color: #c1262e;
 }
 .article-tab a:hover{
-    color: #3b3b3b;
+    color: #c1262e;
 }
 .section-5B{
     width: 80%;
