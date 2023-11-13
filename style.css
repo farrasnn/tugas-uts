@@ -474,4 +474,10 @@ main a.learn-button:hover{
     display: flex;
     justify-content: space-between;
 }
+.my-social p{
+    margin-bottom: 10px;
+}
+.my-social a{
+    padding-right: 3px;
+}
 /* akhir footer section */

@@ -189,10 +189,16 @@ nav a {
     line-height: 35px;
     font-weight: 400;
 }
-.bagian-2{
+.bagian.dua{
     margin: 20px 0px;
     color: #7c7c7c;
     display: flex;
     justify-content: space-between;
+}
+.my-social p{
+    margin-bottom: 10px;
+}
+.my-social a{
+    padding-right: 3px;
 }
 /* akhir footer section */
