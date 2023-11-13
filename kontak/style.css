@@ -81,7 +81,7 @@ nav a {
     padding: 8px 10px;
     text-decoration: none;
 }
-.regist .sign-in{
+.regist .sign-up{
     background-color: #ff5656;
     border-radius: 30px;
     padding: 0px 20px;   
@@ -89,11 +89,12 @@ nav a {
 .regist .log-in a:hover{
     color:#4e4e4e
 }
-.regist .sign-in:hover{
+.regist .sign-up:hover{
     background-color: #4e4e4e;
     transition: all 0.5s;
     cursor: pointer;
 }
+/* akhir navbar */
 
 .container-1{
     margin: 35px 50px;
@@ -118,7 +119,7 @@ nav a {
     flex-basis: 70%;
     padding: 40px 30px;
 }
-.contact-box .contact-left h2{
+.contact-left h2{
     margin-bottom: 20px;
     text-align: center;
 }

@@ -15,7 +15,7 @@ body{
     color: #2e2e2e;
 }
 .regist{
-    margin: 80px 0px;
+    margin: 30px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,9 +45,6 @@ body{
 .header a{
     text-decoration: none;
     color: #080885;
-}
-.header a:hover{
-    color: #C1262E;
 }
 form{
     color: #C1262E;
@@ -86,15 +83,12 @@ form{
     color: #f5f5f5;
 }
 .terms{
-    margin: 0px 10px;
+    margin: 0px 75px;
     color: #2e2e2e;
 }
 .terms a{
     text-decoration: none;
     color: #080885;
-}
-.terms a:hover{
-    text-decoration:underline;
 }
 ::placeholder{
     color: #000000b2;
