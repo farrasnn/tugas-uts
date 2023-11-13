@@ -15,7 +15,7 @@ body{
 }
 
 
-/*Navbar*/
+/*navbar*/
 nav{
     display: flex;
     justify-content: space-between;
@@ -44,6 +44,7 @@ nav a {
     padding: 8px 10px;
     text-decoration: none;
 }
+
 .menu .dropdown-content {
     display: none;
     position: absolute;
@@ -84,16 +85,15 @@ nav a {
 .regist .sign-in{
     background-color: #ff5656;
     border-radius: 30px;
-    padding: 0 20px;
-    
+    padding: 0px 20px;   
 }
-.regist ul li a:hover{
-    color:black;
-    transition: all 0.5s ease;
+.regist .log-in a:hover{
+    color:#4e4e4e
 }
 .regist .sign-in:hover{
-    background-color: #ffffff;
-    transition: all 0.5s ease;
+    background-color: #4e4e4e;
+    transition: all 0.5s;
+    cursor: pointer;
 }
 /* Akhir Navbar */
 aside{
