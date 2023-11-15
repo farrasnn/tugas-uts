@@ -118,13 +118,12 @@ main{
 }
 .container-1{
     margin: 25px auto;
-    margin: 60px auto;
 }
 .container-1 h1{
     text-align: center;
 }
 .container-1 p{
-    margin: 20px 40px;
+    margin: 20px 90px;
     font-weight: 400;
     font-size: 1em;
     text-align: justify;
