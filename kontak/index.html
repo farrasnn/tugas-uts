@@ -82,7 +82,7 @@
                         </div>
                         <label>Pesan</label>
                         <textarea rows="5" placeholder="Tulis pesan"></textarea>
-                        <button type="submit">Send</button>
+                        <button type="submit" onclick="myFunction()">Send</button>
                     </form>
                 </div>
                 <div class="contact-right">
@@ -118,6 +118,9 @@
     </main>
     <script>
         feather.replace();
+        function myFunction() {
+                alert("Pesan Berhasil Dikirim!");
+                }
     </script>
 </body>
 </html>
