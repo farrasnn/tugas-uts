@@ -100,7 +100,7 @@ nav a {
 
 
 
-/*landing page*/
+/*bagian 1/header*/
 .container-1 img{
     margin-top: 30px;
 }
@@ -163,11 +163,11 @@ main a.learn-button:hover{
     border-radius: 40px;
     margin-left: 10px;
 }
-/* akhir  landing page */
+/* akhir  bagian 1/header */
 
 
 
-/*activity section*/
+/*bagian 2/activity list*/
 .container-2{
     display: flex;
     flex-direction: column;
@@ -200,11 +200,11 @@ main a.learn-button:hover{
 .kegiatan p{
     text-align: left;
 }
-/* akhir activity section */
+/* akhir bagian 2/activity list */
 
 
 
-/* abouts section */
+/* bagian 3/about us*/
 .container-3{
     display: flex;
     justify-content: space-between;
@@ -257,11 +257,11 @@ main a.learn-button:hover{
     background-color: #2e2e2e;
     transition: all 0.5s ease;
 }
-/* akhir about section*/
+/* akhir bagian 3/about us*/
 
 
 
-/* activity details section*/
+/*bagian 4/activity details*/
 .container-4{
     display: flex;
     flex-direction: column;
@@ -293,11 +293,11 @@ main a.learn-button:hover{
     color: #f5f5f5ff;
     border-radius: 10px;    
 }
-/* akhir activity details */
+/* akhir bagian 4/activity details */
 
 
 
-/* artikel section */
+/* bagian 5/artikel list */
 .container-5{
     padding-bottom: 10px;
 }
@@ -383,11 +383,11 @@ main a.learn-button:hover{
 .card .content .highlight:hover{
     color: #2926c1;
 }
-/* akhir artikel section */
+/* akhir bagian 5/artikel list */
 
 
 
-/* partners logo section */
+/* bagian 6/partners logo */
 .container-6{
     display: flex;
     flex-direction: column;
@@ -419,11 +419,11 @@ main a.learn-button:hover{
 .thumbnail img{
     width: 100%;
 }
-/* akhir partners logo section */
+/* akhir bagian 6/partners logo */
 
 
 
-/* footer section */
+/* footer */
 .container-7{
     margin: 10px 0px 0px 0px;
     padding: 40px 50px;
@@ -480,4 +480,4 @@ main a.learn-button:hover{
 .my-social a{
     padding-right: 3px;
 }
-/* akhir footer section */
+/* akhir footer */
