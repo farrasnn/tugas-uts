@@ -140,6 +140,7 @@ nav a {
     margin-top: 40px;
 }
 .link-join-learn button{
+    background-color:rgba(238, 130, 238, 0);
     border: none;
     font-size: 1.1em;
 }
