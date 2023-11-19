@@ -83,34 +83,37 @@ nav a {
     padding: 8px 10px;
     text-decoration: none;
 }
-.regist .sign-up{
+.regist button{
+    font-size: 1em;
+    border: none;
+}
+.regist .sign-up button{
     background-color: #ff5656;
     border-radius: 30px;
-    padding: 0px 20px;   
+    padding: 0px 15px;   
 }
-.regist .log-in a:hover{
-    color:#4e4e4e
+.regist .log-in button{
+    background:none;
 }
-.regist .sign-up:hover{
+.regist .log-in button:hover{
+    color: #4e4e4e;
+    transition: all 0.5s;
+}
+.regist .sign-up button:hover{
     background-color: #4e4e4e;
     transition: all 0.5s;
-    cursor: pointer;
 }
 /* akhir navbar */
 
 
 
 /*bagian 1/header*/
-.container-1 img{
-    margin-top: 30px;
-}
-
 .container-1{
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
     color: #2e2e2e;
-    padding: 70px 0px 0px 0px;
+    margin: 70px 0px 0px 0px;
     width: 100%; 
     height: fit-content;
     justify-content: center;
@@ -134,7 +137,11 @@ nav a {
     color: rgb(97, 97, 97);
 }
 .link-join-learn{
-    padding: 40px 0px 10px 0px;
+    margin-top: 40px;
+}
+.link-join-learn button{
+    border: none;
+    font-size: 1.1em;
 }
 .join-button2{
     background-color: #C1262E;
@@ -144,13 +151,13 @@ nav a {
     border-radius: 40px;
     margin-right: 10px;
 }
-main a.join-button2:hover{
+.join-button2:hover{
     color: #ffffff;
     background-color: #2e2e2e;
     transition: all 0.5s;
 }
     
-main a.learn-button:hover{
+.learn-button:hover{
     color: #ffffff;
     background-color: #2e2e2e;
     transition: all 0.5s;
@@ -162,6 +169,10 @@ main a.learn-button:hover{
     padding: 8px 40px;
     border-radius: 40px;
     margin-left: 10px;
+}
+.container-1 img{
+    margin-top: 50px;
+    width: 700px;
 }
 /* akhir  bagian 1/header */
 
@@ -316,9 +327,9 @@ main a.learn-button:hover{
     border-radius: 10px;
 }
 .article-tab{
-    margin: 0 125px;
+    margin: 0 135px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     color: #3b3b3b;
 }
 .article-tab a{
